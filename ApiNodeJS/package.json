@@ -1,0 +1,24 @@
+{
+  "name": "node_sql_Fiscalias",
+  "version": "1.0.0",
+  "description": "Sample connection testing for node.js and MS-sql",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node_modules/.bin/nodemon -e js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manjeet Pandit",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.11",
+    "morgan": "^1.9.1",
+    "msnodesqlv8": "^0.8.0",
+    "mssql": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

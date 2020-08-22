@@ -1,0 +1,12 @@
+{
+
+    "getAllFiscalias": "SELECT  * FROM [dbo].[Tb_Fiscalias]",
+    "addNewFiscalia": "INSERT INTO [dbo].[Tb_Fiscalias] (Fiscalia_Direccion,Fiscalia_Telefono, Fiscalia_Nombre, Id_Departamento, Id_Tipo, Id_Mpio) VALUES (@Fiscalia_Direccion, @Fiscalia_Telefono, @Fiscalia_Nombre, @Id_Departamento, @Id_Tipo, @Id_Mpio)",
+    "deleteFiscalia": "DELETE FROM [dbo].[Tb_Fiscalias] WHERE Fiscalia_ID = @Fiscalia_ID",
+    "updateFiscalia": "UPDATE [dbo].[Tb_Fiscalias] SET Fiscalia_Direccion = @Fiscalia_Direccion, Fiscalia_Telefono= @Fiscalia_Telefono, Fiscalia_Nombre=@Fiscalia_Nombre,Id_Departamento=@Id_Departamento,Id_Tipo=@Id_Tipo, Id_Mpio=@Id_Mpio  WHERE Fiscalia_ID = @Fiscalia_ID",
+    "getAllMunicipios": "SELECT  Id_Mpio,[Id_Departamento] as Depto, Mpio_Nombre FROM [dbo].[Tb_Municipio]",
+    "getAllDepartamentos": "SELECT  * FROM [dbo].[Tb_Departamento]",
+    "getAllTipos": "SELECT  * FROM [dbo].[Tb_Tipo]"
+
+
+}
